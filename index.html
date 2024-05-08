@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vacation-Rental-bsTest</title>
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.3.2-dist/css/bootstrap.min.css"
+    />
+    <script src="./bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Vacation Rentals</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-house"></i> Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa-solid fa-star text-warning"></i> Top Destnations</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+              <i class="fa-solid fa-user"></i> About Us
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa-solid fa-ticket"></i> Book Tickets</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+              <i class="fa-solid fa-circle-dot"></i> Reservation
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- imageBackground -->
+    <div
+      class="bg-image h-25 d-inline-block w-100 p-3"
+      style="background-image: url('./img/1.jpg')"
+    >
+      <div class="ms-3 mb-4">
+        <h1 class="display-2 text-light">Best Vacation Rentals</h1>
+        <p class="text-light">New Way TO Feel Relax On Our Places</p>
+        <button type="button" class="btn btn-primary">Start Now!</button>
+      </div>
+    </div>
+    <!-- card-with-image -->
+    <div class="container mt-4">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card border-light">
+            <img
+              src="./img/3.jpg"
+              class="card-img-top imgCircule rounded-circle"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Type 1</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ipsam reprehenderit libero architecto ullam numquam, adipisci
+                cupiditate ut aliquid dolorem maiores nesciunt optio iste
+                aspernatur quas ratione iusto dignissimos? Quas, cupiditate!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+                laudantium odit et rerum alias incidunt sapiente magni, iste,
+                quae ut cupiditate, in totam! Ratione, tenetur eos blanditiis
+                optio sint natus.lolor Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit. Illo architecto pariatur nesciunt excepturi
+                autem velit minus. Consequuntur assumenda, vero doloremque
+                labore quia dolorum dolorem neque reiciendis nulla ratione
+                perspiciatis! Sint?
+              </p>
+              <a href="#" class="btn btn-success">Book Now @ &dollar; 599</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-light">
+            <img
+              src="./img/4.jpg"
+              class="card-img-top imgCircule rounded-circle"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Type 2</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ipsam reprehenderit libero architecto ullam numquam, adipisci
+                cupiditate ut aliquid dolorem maiores nesciunt optio iste
+                aspernatur quas ratione iusto dignissimos? Quas, cupiditate!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+                laudantium odit et rerum alias incidunt sapiente magni, iste,
+                quae ut cupiditate, in totam! Ratione, tenetur eos blanditiis
+                optio sint natus.lolor Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit. Illo architecto pariatur nesciunt excepturi
+                autem velit minus. Consequuntur assumenda, vero doloremque
+                labore quia dolorum dolorem neque reiciendis nulla ratione
+                perspiciatis! Sint?
+              </p>
+              <a href="#" class="btn btn-danger">Book Now @ &dollar; 899</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-light">
+            <img
+              src="./img/5.jpg"
+              class="card-img-top imgCircule rounded-circle"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Type 3</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Ipsam reprehenderit libero
+                architecto ullam numquam, adipisci cupiditate ut aliquid dolorem
+                maiores nesciunt optio iste aspernatur quas ratione iusto
+                dignissimos? Quas, cupiditate! Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Vitae laudantium odit et rerum
+                alias incidunt sapiente magni, iste, quae ut cupiditate, in
+                totam! Ratione, tenetur eos blanditiis optio sint natus.lolor
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo
+                architecto pariatur nesciunt excepturi autem velit minus.
+                Consequuntur assumenda, vero doloremque labore quia dolorum
+                dolorem neque reiciendis nulla ratione perspiciatis!cardcard
+                Sint?
+              </p>
+              <a href="#" class="btn btn-info text-light"
+                >Book Now @ &dollar; 999</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="container mb-5">
+      <div class="d-flex justify-content-between align-self-baseline">
+        <span class="align-self-baseline">&#169; 2024</span>
+        <div class="d-grid gap-2 d-md-block align-self-baseline">
+          <button class="btn btn-primary" type="button">About Us</button>
+          <button type="button" class="btn btn-light text-primary">
+            Support 24/7
+          </button>
+          <button type="button" class="btn btn-light text-primary">
+            Privicy Policy
+          </button>
+        </div>
+        <h5 class="align-self-baseline">Vacation Rental</h5>
+      </div>
+    </div>
+  </body>
+</html>

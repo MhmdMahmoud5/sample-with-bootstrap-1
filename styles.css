@@ -1,0 +1,18 @@
+.divImgBg{
+    background-image: url("./img/1.jpg");
+
+    /* Full height */
+    height: 20%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+  .imgCircule {
+    height: auto;
+    width: 100%;
+    aspect-ratio: 1/1; /* Ensures a square aspect ratio */
+    object-fit: cover; /* Resizes the image while maintaining its aspect ratio */
+  }
